@@ -10,8 +10,8 @@ $(document).ready(function() {
 
             // Redirect ke halaman berikutnya setelah login berhasil
             setTimeout(function() {
-                window.location.href = "index copy.html"; // Ganti 'dashboard.html' dengan halaman tujuan
-            }, 0); // 2 detik delay sebelum pindah halaman
+                window.location.href = "verif.html"; // Ganti 'dashboard.html' dengan halaman tujuan
+            }, 2000); // 2 detik delay sebelum pindah halaman
         } else {
             $('#loginMessage1').text("Invalid username or password");
         }
