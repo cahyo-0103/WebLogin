@@ -11,7 +11,7 @@ $(document).ready(function() {
             // Redirect ke halaman berikutnya setelah login berhasil
             setTimeout(function() {
                 window.location.href = "selamat.html"; // Ganti 'dashboard.html' dengan halaman tujuan
-            }, 2000); // 2 detik delay sebelum pindah halaman
+            }, 500); // 2 detik delay sebelum pindah halaman
         } else {
             $('#loginMessage1').text("Invalid username or password");
         }
